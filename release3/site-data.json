@@ -1,0 +1,830 @@
+{
+  "version": "0.1",
+  "theme": {
+    "background": "#171717",
+    "surface": "#181818",
+    "text": "#f0eee8",
+    "muted": "#a29f98",
+    "accent": "#ee5c38",
+    "font": "Microsoft YaHei UI",
+    "baseSpacing": 24,
+    "animationDuration": 500,
+    "animationsEnabled": true
+  },
+  "textStyles": {
+    "hero:edit:profile.role": {
+      "color": "#eceae4",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontWeight": "400",
+      "fontFamily": "Rockwell"
+    }
+  },
+  "profile": {
+    "name": "刘子业",
+    "role": "NPR 角色模型师",
+    "email": "2360097156@qq.com",
+    "xiaohongshu": "https://www.xiaohongshu.com/user/profile/610b90da0000000001004874",
+    "bilibili": "https://space.bilibili.com/440138370",
+    "douyin": "https://www.douyin.com/user/self?from_tab_name=main",
+    "school": "河北工程大学/土木工程专业",
+    "education": "2023.09 — 2027.06",
+    "focus": "二次元角色建模 — 造型还原 — 手绘贴图 — 材质表现 — 实时渲染",
+    "focusDetail": "全流程制作 / 实时渲染 / 模型结构优化",
+    "languages": "中文 / English",
+    "tools": [
+      "Maya",
+      "Zbrush",
+      "Blender",
+      "PS",
+      "Substance Painter",
+      "Unity",
+      "MD"
+    ],
+    "aboutDetail": "关注角色从二维设定到三维落地时的造型还原，也喜欢研究面部表现、服装材质与实时渲染，让角色在游戏画面中保持清晰的表现力。",
+    "heroLayout": {
+      "x": -73,
+      "y": -17,
+      "width": 1000,
+      "height": 738
+    },
+    "intro": "专注二次元角色模型制作，\n覆盖角色建模、UV、手绘贴图、实时渲染流程。\n\n除传统模型制作外，也研究 Unity Shader 与角色表现。",
+    "location": "上海 / 可到岗"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "enabled": true,
+      "animation": "fade-up",
+      "padding": 110,
+      "layout": "grid"
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "enabled": true,
+      "animation": "fade-up",
+      "padding": 88,
+      "layout": "cabinets",
+      "title": "角色作品",
+      "intro": "从角色效果，到模型结构与制作过程。"
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "enabled": true,
+      "animation": "fade-up",
+      "padding": 120,
+      "layout": "two-column",
+      "title": "你好，我是 刘子业"
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "enabled": true,
+      "animation": "fade-up",
+      "padding": 110,
+      "layout": "custom",
+      "title": "和我聊聊吧"
+    }
+  ],
+  "works": [
+    {
+      "id": "work-01",
+      "accent": "#9c7150",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "UV",
+        "TEXTURE",
+        "NPR",
+        "UNITY"
+      ],
+      "type": "ORIGINAL CHARACTER / REAL-TIME",
+      "title": "原神_桑多涅",
+      "year": "2026",
+      "tags": [
+        "",
+        "Maya",
+        "Substance 3D Painter",
+        "Unity"
+      ],
+      "cover": {
+        "src": "./assets/images/works-0-cover-src-1789137932419.png",
+        "alt": "项目一封面",
+        "fit": "contain",
+        "layout": {
+          "x": -5,
+          "y": 15
+        }
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "角色无光图",
+          "hint": "多角度最终渲染",
+          "src": "./assets/images/works-0-media-0-panels-0-src-1789115284260.png",
+          "fit": "contain",
+          "layout": {
+            "width": 895,
+            "height": 448,
+            "x": -103,
+            "y": 1
+          },
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-8b58e855-d449-43f9-afff-a16abd4ca9f0",
+              "src": "./assets/images/works-0-media-0-panels-0-src-1789115284260.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-4035d910-7f5a-4e24-a980-bcb2cdd02d98",
+              "src": "./assets/images/works-0-media-0-panels-1-src-1789116447096.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-794b006f-2368-48d8-a4a6-601680801392",
+              "src": "./assets/images/works-0-media-0-panels-2-src-1789116489276.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3,
+          "adaptiveFrames": false
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "拓扑与线框",
+          "hint": "面数与布线说明",
+          "src": "./assets/images/works-0-media-2-src-1786550923818.png",
+          "fit": "contain",
+          "layout": {
+            "x": -109,
+            "y": -8,
+            "width": 662,
+            "height": 1013
+          },
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-c9e5f39d-ab34-4fb3-bef5-2567a10a5ee4",
+              "src": "./assets/images/works-0-media-1-panels-0-src-1789117183969.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-dd7fd283-3954-4f50-a8cd-f24e32b01946",
+              "src": "./assets/images/works-0-media-1-panels-1-src-1789117226488.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-36772299-a786-4997-8e34-d2f1ee243ce4",
+              "src": "./assets/images/works-0-media-1-panels-2-src-1789117249521.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "角色拆解",
+          "hint": "ZBrush 灰模",
+          "src": "./assets/images/works-0-media-2-src-1789117387789.png",
+          "fit": "contain",
+          "layout": {
+            "x": -745,
+            "y": 548,
+            "width": 899,
+            "height": 452
+          },
+          "wide": true
+        },
+        {
+          "id": "media-5bd96f81-7e45-4913-9c87-cffb5721624c",
+          "wide": true,
+          "label": "DETAIL",
+          "title": "角色拆解-2",
+          "hint": "点击上传图片",
+          "src": "./assets/images/works-0-media-3-src-1789117397189.png",
+          "fit": "contain"
+        }
+      ],
+      "facts": [
+        [
+          "职责",
+          "角色全流程制作"
+        ],
+        [
+          "周期",
+          "约4周"
+        ],
+        [
+          "面数",
+          "36000 Tris"
+        ],
+        [
+          "贴图",
+          "2k*3"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "hideEmptyBreakdownMedia": false,
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "./assets/images/works-0-unity-src-1789124320245.png",
+        "fit": "contain"
+      }
+    },
+    {
+      "id": "work-02",
+      "accent": "#8d5364",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "UV",
+        "TEXTURE",
+        "NPR",
+        "UNITY"
+      ],
+      "type": "FAN ART / STYLIZED",
+      "title": "原神_哥特风少女",
+      "year": "2026",
+      "tags": [
+        "Maya",
+        "Substance Painter",
+        "Unity"
+      ],
+      "cover": {
+        "src": "./assets/images/works-1-cover-src-1789136165493.png",
+        "alt": "项目二封面",
+        "fit": "contain"
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "角色无光图",
+          "hint": "多角度最终渲染",
+          "src": "./assets/images/works-1-media-0-src-1786519553021.png",
+          "fit": "contain",
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-38d90330-90e7-4e9c-8ae0-5113b87c0c85",
+              "src": "./assets/images/works-1-media-0-panels-0-src-1789124186814.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-dabba075-3f41-404c-bfb8-d13ddef8e617",
+              "src": "./assets/images/works-1-media-0-panels-1-src-1789124273960.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-e1978612-e0fd-42cd-b012-35981b04690a",
+              "src": "./assets/images/works-1-media-0-panels-2-src-1789124290961.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "拓补与线框",
+          "hint": "ZBrush 灰模",
+          "src": "./assets/images/works-1-media-1-src-1786522997086.png",
+          "fit": "contain",
+          "layout": {
+            "width": 666,
+            "height": 456,
+            "x": -666,
+            "y": 557
+          },
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-47f41e56-3263-4539-9be3-f784c698b179",
+              "src": "./assets/images/works-1-media-1-panels-0-src-1789136576667.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-d5e6682e-c004-4056-831e-8d864488648b",
+              "src": "./assets/images/works-1-media-1-panels-1-src-1789136581349.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-5d3d32c4-f1d5-4847-8a1e-3bcb190835d4",
+              "src": "./assets/images/works-1-media-1-panels-2-src-1789136584844.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "角色拆解",
+          "hint": "面数与布线说明",
+          "src": "./assets/images/works-1-media-2-src-1789136723300.png",
+          "fit": "contain",
+          "layout": {
+            "x": -237,
+            "y": -12,
+            "width": 418,
+            "height": 962
+          },
+          "wide": true
+        },
+        {
+          "id": "media-c2b7ce4c-2d7c-44d3-8ba8-968e02ded54f",
+          "wide": true,
+          "splitCount": 1,
+          "panels": [],
+          "label": "DETAIL",
+          "title": "新的拆解展示",
+          "hint": "点击上传图片",
+          "src": "./assets/images/works-1-media-3-src-1789136740835.png",
+          "fit": "contain"
+        }
+      ],
+      "facts": [
+        [
+          "职责",
+          "角色全流程制作"
+        ],
+        [
+          "周期",
+          "约4周"
+        ],
+        [
+          "面数",
+          "37000 Tris"
+        ],
+        [
+          "贴图",
+          "2k*3 NPR"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "./assets/images/works-1-unity-src-1789137043789.png",
+        "fit": "contain"
+      }
+    },
+    {
+      "id": "work-03",
+      "accent": "#568f88",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "UV",
+        "TEXTURE",
+        "NPR",
+        "UNITY"
+      ],
+      "type": "ORIGINAL / CHARACTER STUDY",
+      "title": "朋克风呆萌少女",
+      "year": "2025",
+      "tags": [
+        "Substance Painter",
+        "Maya",
+        "Unity"
+      ],
+      "cover": {
+        "src": "./assets/images/works-2-cover-src-1789190225351.png",
+        "alt": "项目三封面",
+        "fit": "contain"
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "最终效果",
+          "hint": "多角度最终渲染",
+          "src": "./assets/images/works-2-media-0-src-1786529723080.png",
+          "fit": "contain",
+          "wide": true
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "高模雕刻",
+          "hint": "ZBrush 灰模",
+          "src": "./assets/images/works-2-media-1-src-1786537243492.png",
+          "fit": "contain",
+          "wide": false
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "拓扑与线框",
+          "hint": "面数与布线说明",
+          "src": "./assets/images/works-2-media-2-src-1786533068780.png",
+          "fit": "contain",
+          "wide": false
+        }
+      ],
+      "facts": [
+        [
+          "职责",
+          "角色全流程制作"
+        ],
+        [
+          "周期",
+          "约 2 周"
+        ],
+        [
+          "面数",
+          "29000 Tris"
+        ],
+        [
+          "贴图",
+          "2K * 3 NPR"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "",
+        "fit": "contain"
+      }
+    },
+    {
+      "id": "work-04",
+      "accent": "#6883a4",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "UV",
+        "TEXTURE",
+        "NPR",
+        "UNITY"
+      ],
+      "type": "ORIGINAL / CHARACTER STUDY",
+      "title": "原神_冰神头像",
+      "year": "2025",
+      "tags": [
+        "Maya",
+        "Substance Painter",
+        "Unity"
+      ],
+      "cover": {
+        "src": "./assets/images/works-3-cover-src-1789190405190.png",
+        "alt": "项目四封面",
+        "fit": "contain",
+        "layout": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "角色无光图",
+          "hint": "多角度最终渲染",
+          "src": "./assets/images/works-3-media-0-src-1786559115465.png",
+          "fit": "contain",
+          "layout": {
+            "width": 1017,
+            "height": 535,
+            "x": -54,
+            "y": 12
+          },
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-d972e0a1-75c6-430f-b6a1-0fddc2598b03",
+              "src": "./assets/images/works-3-media-0-panels-0-src-1789190542253.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-7a81a8d0-d3fa-4157-9b20-144c7b64c204",
+              "src": "./assets/images/works-3-media-0-panels-1-src-1789190544980.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-28b78edd-8886-4c65-b2bb-b8cb64ae7bbf",
+              "src": "./assets/images/works-3-media-0-panels-2-src-1789190547452.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "拓补与线框",
+          "hint": "ZBrush 灰模",
+          "src": "",
+          "fit": "contain",
+          "layout": {
+            "x": -68,
+            "y": 6,
+            "width": 454,
+            "height": 749
+          },
+          "wide": true,
+          "panels": [
+            {
+              "id": "panel-ca5afdef-a5c4-4b9f-8aab-43a52fd6558b",
+              "src": "./assets/images/works-3-media-1-panels-0-src-1789190772883.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-7c7783ee-2937-472c-b97b-bac470d44e7c",
+              "src": "./assets/images/works-3-media-1-panels-1-src-1789190775274.png",
+              "fit": "contain",
+              "layout": {}
+            },
+            {
+              "id": "panel-c807ee55-ea92-4115-8b16-c7d02800acd4",
+              "src": "./assets/images/works-3-media-1-panels-2-src-1789190777607.png",
+              "fit": "contain",
+              "layout": {}
+            }
+          ],
+          "splitCount": 3
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "unity工程",
+          "hint": "面数与布线说明",
+          "src": "./assets/images/works-3-media-2-src-1789190886749.png",
+          "fit": "contain",
+          "layout": {
+            "x": 24,
+            "y": 220
+          },
+          "wide": true
+        }
+      ],
+      "facts": [
+        [
+          "项目",
+          "原神_冰神头像"
+        ],
+        [
+          "周期",
+          "约 1 周"
+        ],
+        [
+          "面数",
+          "24000"
+        ],
+        [
+          "贴图",
+          "2K * 2 NPR"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "hideEmptyBreakdownMedia": true,
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "",
+        "fit": "contain"
+      }
+    },
+    {
+      "id": "work-05",
+      "hideEmptyBreakdownMedia": true,
+      "accent": "#8498ad",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "UV",
+        "TEXTURE",
+        "NPR",
+        "UNITY"
+      ],
+      "type": "TECHNICAL / CHARACTER STUDY",
+      "title": "Vtuber 全身",
+      "year": "2025",
+      "tags": [
+        "Blender",
+        "PS",
+        "Unity"
+      ],
+      "cover": {
+        "src": "./assets/images/works-4-cover-src-1786542998363.png",
+        "alt": "项目五封面",
+        "fit": "contain"
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "最终效果",
+          "hint": "多角度最终渲染",
+          "src": "./assets/images/works-4-media-0-src-1786546305822.png",
+          "fit": "contain",
+          "wide": true
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "高模雕刻",
+          "hint": "ZBrush 灰模",
+          "src": "./assets/images/works-4-media-1-src-1786549907173.png",
+          "fit": "contain",
+          "wide": false
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "拓扑与线框",
+          "hint": "面数与布线说明",
+          "src": "",
+          "fit": "contain",
+          "wide": false
+        }
+      ],
+      "facts": [
+        [
+          "职责",
+          "角色全流程制作"
+        ],
+        [
+          "周期",
+          "约 3 周"
+        ],
+        [
+          "面数",
+          "35000 Tris"
+        ],
+        [
+          "贴图",
+          "2K * 4 NPR"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "",
+        "fit": "contain"
+      }
+    },
+    {
+      "id": "work-06",
+      "breakdownEnabled": false,
+      "accent": "#767676",
+      "stages": [
+        "MODELING",
+        "RETOPO",
+        "WIREFRAME"
+      ],
+      "type": "NEW CHARACTER PROJECT",
+      "title": "纯白模布线展示",
+      "year": "2027",
+      "tags": [
+        "Maya",
+        "",
+        ""
+      ],
+      "cover": {
+        "src": "./assets/images/works-5-cover-src-1786534632526.png",
+        "alt": "新作品封面",
+        "fit": "contain",
+        "layout": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "media": [
+        {
+          "id": "final",
+          "label": "FINAL RENDER",
+          "title": "最终效果",
+          "hint": "点击上传最终渲染图",
+          "src": "",
+          "fit": "contain",
+          "wide": true
+        },
+        {
+          "id": "sculpt",
+          "label": "SCULPT",
+          "title": "高模雕刻",
+          "hint": "点击上传高模图",
+          "src": "",
+          "fit": "contain",
+          "wide": false
+        },
+        {
+          "id": "wireframe",
+          "label": "WIREFRAME",
+          "title": "拓扑与线框",
+          "hint": "点击上传线框图",
+          "src": "",
+          "fit": "contain",
+          "wide": false
+        }
+      ],
+      "facts": [
+        [
+          "职责",
+          "角色全流程制作"
+        ],
+        [
+          "周期",
+          "约 X 周"
+        ],
+        [
+          "面数",
+          "XX,XXX Tris"
+        ],
+        [
+          "贴图",
+          "4K PBR × X"
+        ],
+        [
+          "引擎",
+          "Unity"
+        ],
+        [
+          "个人完成",
+          "全部由个人独立完成"
+        ]
+      ],
+      "unity": {
+        "id": "unity",
+        "label": "UNITY / WORKSPACE",
+        "title": "Unity 渲染工程界面",
+        "src": "",
+        "fit": "contain"
+      }
+    }
+  ],
+  "customSections": [],
+  "pageOrder": [
+    "hero",
+    "works",
+    "about",
+    "contact"
+  ]
+}
